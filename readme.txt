@@ -27,3 +27,9 @@ origin              --> the primary remote
 .gitignore          --> list of files for git to not track (passwords)
 
 git remote add origin <GITHUB_URL> --> add a remote named 'origin' to repo
+
+git remote add <REMOTENAME> <URL>      --> add remote connections
+git remote set-url <REMOTE NAME> <URL> --> set a url to a remote
+git pull <REMOTENAME> <BRANCHNAME>     --> this pulls in changes
+git remote -view                       --> this views remote addresses
+git push <REMOTENAME> <BRANCH>         --> this pushes changes to somewhere
