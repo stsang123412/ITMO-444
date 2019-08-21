@@ -33,3 +33,15 @@ git remote set-url <REMOTE NAME> <URL> --> set a url to a remote
 git pull <REMOTENAME> <BRANCHNAME>     --> this pulls in changes
 git remote -view                       --> this views remote addresses
 git push <REMOTENAME> <BRANCH>         --> this pushes changes to somewhere
+
+forking --> creating a copy of a repo to my own space
+forks begins as remote repos 
+
+getting forked repos onto the local space requires that I clone it
+
+step 1) fork the repo via github site
+step 2) clone the repo onto my local space via terminal
+
+git clone <URLFROMGITHUB>      // make sure I'm not inside another git repo
+git remote -v                  // checks to see if the address is already set up
+git remote add upstream <LINK> // this adds a remote connection in case the original repo gets edits
