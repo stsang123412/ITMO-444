@@ -56,3 +56,7 @@ git branch -m <NEWBRANCHNAME>  --> rename the branch currently on
 git pull <REMOTENAME> <REMOTEBRANCH> --> pull in changes from remote branch
 git fetch --dry-run                  --> see changes to the remote before pull in
 
+git merge <BRANCHNAME>                     --> merge a branch into current branch
+git branch -d <BRANCHNAME>                 --> delete a branch
+git push <REMOTENAME> --delete <BRANCHNAME --> delete a remote branch
+git push <REMOTENAME> <BRANCHNAME>         --> pull from remote
