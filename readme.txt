@@ -53,4 +53,6 @@ git checkout <BRANCHNAME>      --> switch to specified branch
 git branch                     --> list all branches
 git branch -m <NEWBRANCHNAME>  --> rename the branch currently on
 
+git pull <REMOTENAME> <REMOTEBRANCH> --> pull in changes from remote branch
+git fetch --dry-run                  --> see changes to the remote before pull in
 
