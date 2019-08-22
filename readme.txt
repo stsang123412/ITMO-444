@@ -45,3 +45,12 @@ step 2) clone the repo onto my local space via terminal
 git clone <URLFROMGITHUB>      // make sure I'm not inside another git repo
 git remote -v                  // checks to see if the address is already set up
 git remote add upstream <LINK> // this adds a remote connection in case the original repo gets edits
+
+
+git checkout -b <BRANCHNAME>   --> create + switch to branch in one line
+git branch <BRANCHNAME>        --> create a new branch 
+git checkout <BRANCHNAME>      --> switch to specified branch
+git branch                     --> list all branches
+git branch -m <NEWBRANCHNAME>  --> rename the branch currently on
+
+
